@@ -3,6 +3,7 @@ import './App.scss';
 import './fontawesome.js';
 
 import Background from './Components/Background/Background.jsx';
+import Experience from './Components/Experience/Experience.jsx';
 import Footer from './Components/Footer/Footer.jsx';
 import LogoBanner from './Components/LogoBanner/LogoBanner.jsx';
 import TechStack from './Components/TechStack/TechStack.jsx';
@@ -15,6 +16,7 @@ function App() {
       <LogoBanner/>
       <TechStack/>
       <Portfolio/>
+      <Experience/>
       <Footer/>
     </div>
   );
