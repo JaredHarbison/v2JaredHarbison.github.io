@@ -14,8 +14,8 @@
     position: -webkit-sticky; 
     position: sticky; 
     text-align: center;
-    text-shadow: -5px 15px 15px rgb(82, 80, 80);
-    top: 0; 
+    text-shadow: -5px 15px 5px rgb(82, 80, 80);
+    top: 0; word-spacing: -25px;
     z-index: -200;}
 /*////////////////////////////////////////////////////////////////////
 ////////// Basic Card Adjustments for Experience /////////////////////
@@ -26,9 +26,10 @@
     display: inline-block; 
     margin: 5vw;
     width: 75vw;
-    height: 50vh; 
+    height: 50vh; overflow-wrap: break-word;
     overflow-y: scroll; border: none;
     word-wrap: break-word;
+    /*
     .job-row {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -59,6 +60,7 @@
       display: flex;  
       flex-wrap: wrap;
     }
+    */
     .devicon {
       fill: white;
       filter: drop-shadow(-5px 15px 5px black);
