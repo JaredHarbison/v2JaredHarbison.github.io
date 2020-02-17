@@ -15,16 +15,20 @@ function Experience() {
           <h2>02/2020 - PRESENT</h2>
           <p className="break"></p>  
           <Accordion 
-            title="Full Stack Engineer | NYC (Remote Office)"
-            content='
-                <p>Writing effective APIs</p>
-                <p>Troubleshooting, debugging and upgrading software.</p>
-                <p>Testing software to ensure responsiveness and efficiency.</p>
-                <p>Building features and applications with a mobile responsive design.</p>
-                <p>Developing and managing well-functioning databases and applications</p>'
+            title="Full Stack Engineer - NYC"
+            subtitle="Remote | Contract"
+            content=' 
+                <p class="break-2"></p>
+                <p class="subheader">Contract | Remote</p>
+                <p class="break-2"></p>
+                <p class="accomplishment">Writing effective APIs</p>
+                <p class="accomplishment">Troubleshooting, debugging, and upgrading software.</p>
+                <p class="accomplishment">Testing software to ensure responsiveness and efficiency.</p>
+                <p class="accomplishment">Building features and applications with a mobile responsive design.</p>
+                <p class="accomplishment">Developing and managing well-functioning databases and applications</p>'
           />
           <p className="break"></p>  
-          <h2 className="">Working with
+          <h2>Working with
             <svg className="devicon" viewBox="0 0 128 128">
               <path d="M18.922 104.532v21.468h5.476v-5.591l4.983 4.983h8.402l-6.664-6.664s4.795-.078 5.157-7.01c0-6.361-4.8-7.186-10.343-7.186h-7.011zm5.737 5.824h4.722v3.824h-4.722v-3.824z"></path>
                 <path d="M48.358 104.619c-2.997-.017-7.155.261-7.155 5.911v14.92h5.62v-3.65h5.447v3.563h5.649v-15.644c0-4.907-5.452-5.1-8.373-5.1h-1.188zm-1.449 5.388h5.273v5.882h-5.273v-5.882z"></path>
@@ -47,47 +51,62 @@ function Experience() {
           <h2>08/2013 - 11/2018</h2>
           <p className="break"></p>  
           <Accordion 
-            title="Store Director | NYC Columbus Circle | 05/16 - 11/18"
-            content='
-                <p>Frequently achieved #1 increase to plan & last year sales in the NYC region through 2018.</p>
-                <p>Successfully launched full Madewell store within J.Crew store, first of the kind within umbrella brand.</p>
-                <p>Improved morale through team-made satisfaction surveys, increasing score by 20% in 1 yr.</p>
-                <p>Increased sales trajectory through fitting room service & higher units per transaction.</p>
-                <p>Leader in company for credit card sign-up, growing from -30% last year Q2’16 to +60% last year Q3’16.</p>'
+            title="J.Crew + Madewell - Store Director"
+            content=' 
+                <p class="break-2"></p>
+                <p class="subheader">NYC - Columbus Circle - 05/16 - 11/18</p>
+                <p class="break-2"></p>
+                <p class="accomplishment" class="accomplishment">Frequently achieved #1 increase to plan & last year sales in the NYC region through 2018.</p>
+                <p class="accomplishment" class="accomplishment">Successfully launched full Madewell store within J.Crew store, first of the kind within umbrella brand.</p>
+                <p class="accomplishment" class="accomplishment">Improved morale through team-made satisfaction surveys, increasing score by 20% in 1 yr.</p>
+                <p class="accomplishment" class="accomplishment">Increased sales trajectory through fitting room service & higher units per transaction.</p>
+                <p class="accomplishment" class="accomplishment">Leader in company for credit card sign-up, growing from -30% last year Q2’16 to +60% last year Q3’16.</p>'
           />
           <p className="break"></p>
           <Accordion 
-            title="Assoc. Store Manager | NYC Columbus Circle | 06/'15 - 05/'16"
+            title="J.Crew + Crewcuts - Associate Store Manager"
             content='
-                <p>Scheduled processes & associates in store at a +90% efficiency score within Dayforce HCM.</p>
-                <p>Participated in assessment of SASS products and feedback to providers.</p>
-                <p>Increased stylist sales by 25% through more consistent and effective relationships with clients.</p>'
+                <p class="break-2"></p>
+                <p class="subheader">NYC - Columbus Circle - 06/15 to 05/16</p>
+                <p class="break-2"></p>
+                <p class="accomplishment">Scheduled processes & associates in store at a +90% efficiency score within Dayforce HCM.</p>
+                <p class="accomplishment">Participated in assessment of SASS products and feedback to providers.</p>
+                <p class="accomplishment">Increased stylist sales by 25% through more consistent and effective relationships with clients.</p>'
           />
           <p className="break"></p>
           <Accordion 
-            title="Store Director | Arlington, VA | 11/'14 - 06/'15"
+            title="J.Crew - Store Director"
             content='
-                <p>Improved systems service, raising variance to plan from -18% Q3’14 to +1% Q4’14.</p>
-                <p>Provided initial training for store directors within the DC MD VA market.</p>
-                <p>Recruited, hired, and developed an HR assistant manager into a market training role.</p>
-                <p>Asked to partake in rewriting company-wide training materials with the home office in NYC.</p>'
+                <p class="break-2"></p>
+                <p class="subheader">Arlington, VA - Pentagon City - 11/14 to 06/15</p>
+                <p class="break-2"></p>
+                <p class="accomplishment">Improved systems service, raising variance to plan from -18% Q3’14 to +1% Q4’14.</p>
+                <p class="accomplishment">Provided initial training for store directors within the DC MD VA market.</p>
+                <p class="accomplishment">Recruited, hired, and developed an HR assistant manager into a market training role.</p>
+                <p class="accomplishment">Asked to partake in rewriting company-wide training materials with the home office in NYC.</p>'
           />
           <p className="break"></p>
           <Accordion 
-            title="Store Director | Washington, DC | 11/'13 - 11/'14"
+            title="J.Crew - Store Director"
             content='
-                <p>Maintained company-wide #1 visitor to customer conversion for full year at rate above 25%.</p>
-                <p>Surpassed sales goals for 3 quarters topping out at rate of +15% to the previous year.</p>
-                <p>Recognized as #1 in customer service in SE region for Q3’14 through exceptional service.</p>
-                <p>Achieved mid-year shrink goals through exceptional associate customer service skills.</p>
-                <p>Asked to train and coach managers within the market during rollouts of new SASS products.</p>'
+                <p class="break-2"></p>
+                <p class="subheader">Washington, DC - F Street - 11/13 to 11/14</p>
+                <p class="break-2"></p>
+                <p class="accomplishment">Maintained company-wide #1 visitor to customer conversion for full year at rate above 25%.</p>
+                <p class="accomplishment">Surpassed sales goals for 3 quarters topping out at rate of +15% to the previous year.</p>
+                <p class="accomplishment">Recognized as #1 in customer service in SE region for Q3’14 through exceptional service.</p>
+                <p class="accomplishment">Achieved mid-year shrink goals through exceptional associate customer service skills.</p>
+                <p class="accomplishment">Asked to train and coach managers within the market during rollouts of new SASS products.</p>'
           />
           <p className="break"></p>
           <Accordion 
-            title="Assoc. Store Manager | Washington, DC | 06/'15 - 05/'16"
+            title="J.Crew - Associacte Store Manager"
             content='
-                <p>Provided initial training for managers in region & provided follow-up plans to directors.</p>
-                <p>Chosen to take leading operations role in openings & relocations within the DC MD VA market.</p>'
+                <p class="break-2"></p>
+                <p class="subheader">Washington, DC - F Street - 06/15 to 05/16</p>
+                <p class="break-2"></p>
+                <p class="accomplishment">Provided initial training for managers in region & provided follow-up plans to directors.</p>
+                <p class="accomplishment">Chosen to take leading operations role in openings & relocations within the DC MD VA market.</p>'
           />
         </div>
         <div className="card">
@@ -95,43 +114,54 @@ function Experience() {
           <h2>07/2001 - 6/2013</h2>
           <p className="break"></p>
           <Accordion
-            title="General Manager | Urban Outfitters | Washington, DC - Georgetown| 11/'12 - 6/'13"
+            title="Urban Outfitters - General Manager"
             content='
-              <p>Managed 12 million dollar flagship location, within the top five volume stores of the company.</p>
-              <p>Hosted company-wide quarterly visual prototype process with store-opening level shipments.</p>
-              <p>Implemented web-based communication tools to engage a team of up to 100.</p>'
+                <p class="break-2"></p>
+                <p class="subheader">Washington, DC - Georgetown - 11/12 to 6/13</p>
+                <p class="break-2"></p>
+                <p class="accomplishment">Managed 12 million dollar flagship location, within the top five volume stores of the company.</p>
+                <p class="accomplishment">Hosted company-wide quarterly visual prototype process with store-opening level shipments.</p>
+                <p class="accomplishment">Implemented web-based communication tools to engage a team of up to 100.</p>'
           />
           <p className="break"></p>  
           <Accordion
-            title="Store Manager | Anthropologie | Multiple DC & MD Locations | 11/'09 - 11/'12"
-            content="
-              <p>Mentored & developed 6 managers into store management level positions across market.</p>
-              <p>Developed community ties through local businesses, media sources, and non-profit groups.</p>
-              <p>Held store opening event for 300 customers, driving $30,000 in 2 hrs, with a $1,500 budget.</p>
-              <p>Assisted District Manager guiding other store managers for large-scale objectives.</p>
-              <p>Monitored opening process from turnover to opening for experimental accessories boutique.</p>
-              <p>Achieved record-breaking sales while relocating a store in the Q4'09 after 15 years of business.</p>"
-          />
-          <p className="break"></p>  
-          <Accordion
-            title="People & Operations Manager | Anthropologie | Locations Nationwide | 07/'08 - 11/'09"
+            title="Anthropologie - Store Manager"
             content='
-              <p>Earned investment from part time staff by encouraging ownership over areas of business.</p>
-              <p>Improved average loss prevention audit scores by 8/100 points in high theft environment.</p>
-              <p>Scheduled processes & employees of a 10mil location to achieve payroll targets.</p>'
+              <p class="break-2"></p>
+              <p class="subheader">Multiple DC & MD Locations - 11/09 to 11/12</p>
+              <p class="break-2"></p>
+              <p class="accomplishment">Mentored & developed 6 managers into store management level positions across market.</p>
+              <p class="accomplishment">Developed community ties through local businesses, media sources, and non-profit groups.</p>
+              <p class="accomplishment">Held store opening event for 300 customers, driving $30,000 in 2 hrs, with a $1,500 budget.</p>
+              <p class="accomplishment">Assisted District Manager guiding other store managers for large-scale objectives.</p>
+              <p class="accomplishment">Monitored opening process from turnover to opening for experimental accessories boutique.</p>
+              <p class="accomplishment">Achieved record-breaking sales while relocating a store in the Q4 2009 after 15 years of business.</p>'
           />
           <p className="break"></p>  
           <Accordion
-            title="Senior Merchandiser | Urban Outfitters"
-            title2="Locations Nationwide | 07/'01 - 07/'08"
-            content="
-              <p>Managed men’s department visual prototype for Back to School in San Francisco for 3 years.</p>
-              <p>Shortened men’s merchandising store opening process by 40% over 12 store openings.</p>
-              <p>Highlighted in internal documents for innovative web & catalog aligned merchandise displays.</p>
-              <p>Consistently highlighted for merchandising & display across all departments from home stores.</p>
-              <p>Managed district workshops to complete seasonal set-ups in 50% of average time.</p>
-              <p>Prototyped integration of clothing & home goods for Spring visual prototype in Santa Monica.</p>
-              <p>Part of a leadership team who grew a new business from 4mil to 10mil in 4 years.</p>"
+            title="Anthropologie - People & Operations Manager"
+            content='
+              <p class="break-2"></p>
+              <p class="subheader">Locations Nationwide - 07/08 to 11/09</p>
+              <p class="break-2"></p>
+              <p class="accomplishment">Earned investment from part time staff by encouraging ownership over areas of business.</p>
+              <p class="accomplishment">Improved average loss prevention audit scores by 8/100 points in high theft environment.</p>
+              <p class="accomplishment">Scheduled processes & employees of a 10mil location to achieve payroll targets.</p>'
+          />
+          <p className="break"></p>  
+          <Accordion
+            title="Urban Outfitters - Senior Merchandiser"
+            content='
+              <p class="break-2"></p>
+              <p class="subheader">Locations Nationwide - 07/01 to 07/08</p>
+              <p class="break-2"></p>
+              <p class="accomplishment">Managed men’s department visual prototype for Back to School in San Francisco for 3 years.</p>
+              <p class="accomplishment">Shortened men’s merchandising store opening process by 40% over 12 store openings.</p>
+              <p class="accomplishment">Highlighted in internal documents for innovative web & catalog aligned merchandise displays.</p>
+              <p class="accomplishment">Consistently highlighted for merchandising & display across all departments from home stores.</p>
+              <p class="accomplishment">Managed district workshops to complete seasonal set-ups in 50% of average time.</p>
+              <p class="accomplishment">Prototyped integration of clothing & home goods for Spring visual prototype in Santa Monica.</p>
+              <p class="accomplishment">Part of a leadership team who grew a new business from 4mil to 10mil in 4 years.</p>'
           />
           <p className="break"></p>
         </div>

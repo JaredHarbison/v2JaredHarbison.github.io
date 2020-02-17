@@ -26,41 +26,17 @@
     display: inline-block; 
     margin: 5vw;
     width: 75vw;
-    height: 50vh; overflow-wrap: break-word;
-    overflow-y: scroll; border: none;
-    word-wrap: break-word;
-    /*
-    .job-row {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-auto-rows: minmax(1px, auto);
-    }
-    .title {
-      font-size: .75em;
-      display: grid;
-      grid-column: 1 / 3;
-      grid-row: 1;
-      justify-content: left;
-    }
-    .location {
-      font-size: .75em;
-      display: grid;
-      grid-column: 2 / 3;
-      grid-row: 1;
-      justify-content: center;
-    }
-    .date {
-      font-size: .75em;
-      display: grid;
-      grid-column: 3 / 3;
-      grid-row: 1;
-      justify-content: right;
+    height: 50vh; ;
+    overflow-y: scroll;
+    .subheader{
+      font-weight: bolder;
+      padding-right: 5vw;
+      text-align: right; 
     }
     .accomplishment {
-      display: flex;  
-      flex-wrap: wrap;
+      padding-left: 5vw;
+      width: 90%;
     }
-    */
     .devicon {
       fill: white;
       filter: drop-shadow(-5px 15px 5px black);
@@ -69,10 +45,6 @@
       margin-right: .25rem;
       max-width: 2rem;}
   }
-  .scrolling-wrapper-flexbox { vertical-align: middle;
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;}
   .scrolling-wrapper {  
     height: 100vh;
     overflow-x: scroll;
